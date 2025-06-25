@@ -13,7 +13,7 @@ public class hash {
         System.out.print("Informe a quantidade de notas por aluno: ");
         int quantidadeNotas = scanner.nextInt();
 
-        scanner.nextLine(); // limpar buffer
+        scanner.nextLine(); 
 
         for (int i = 0; i < quantidadeAlunos; i++) {
             System.out.print("Informe o nome do aluno " + (i + 1) + ": ");
@@ -27,7 +27,7 @@ public class hash {
                 notas.add(nota);
             }
 
-            scanner.nextLine(); // limpar buffer
+            scanner.nextLine(); 
             alunosNotas.put(nome, notas);
         }
 
